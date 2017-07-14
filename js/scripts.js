@@ -10,7 +10,9 @@ var pingpong = function (userInput){
       userValues[value-1]="pingpong";
     } else if (value % 5 === 0) {
       userValues[value-1]="pong";
-
+    } else if (value % 3 === 0) {
+      userValues[value-1]="ping";
+    }
   });
   return userValues;
 };
