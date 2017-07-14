@@ -25,6 +25,8 @@ $(document).ready(function(){
     event.preventDefault();
     userInput = $("#userInput").val();
     var result = pingpong(userInput);
+    $("#result").show();
+    $("form").hide();
     result.forEach(function(resultValue){
       $("ul").append('<li>'+resultValue+'</li>');
     });
