@@ -12,14 +12,12 @@ var pingpong = function (userInput){
       userValues[value-1]="pong";
     } else if (value % 3 === 0) {
       userValues[value-1]="ping";
+    } else {
+      userValues = userValues;
     }
   });
   return userValues;
 };
-
-
-
-
 
 // User Interface Logic
 $(document).ready(function(){
@@ -27,6 +25,8 @@ $(document).ready(function(){
     event.preventDefault();
     userInput = $("#userInput").val();
     var result = pingpong(userInput);
-    $("#result").text(result);
+    result.forEach(function(resultValue){
+      $("ul").append('<li>'+resultValue+'</li>');
+    });
   });
 });
