@@ -2,7 +2,7 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Ping-Pong</title>
@@ -17,15 +17,18 @@
           <li>Program will replaced numbers divisible by 5 with "pong".</li>
           <li>Program will replaced numbers divisible by 3 with "ping".</li>
         </ol>
+        <hr>
       </div>
-      <form id="ping-pong">
-        <div class="form-group">
-          <label for="year">Enter a number:</label>
-          <input id="userInput" type="number" placeholder="Enter a number:" class="form-control well" min="1" required>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      <div id="result">
+      <div class="container row">
+        <form id="ping-pong">
+          <div class="form-group col-xs-4">
+            <label for="year">Enter a number:</label>
+            <input id="userInput" type="number" placeholder="Enter a number greater than 0" class="form-control well" min="1" required>
+            <button type="submit" class="btn btn-primary">PING PONG</button>
+          </div>
+        </form>
+      </div>
+      <div id="result" class="well">
         <ul>
 
         </ul>
