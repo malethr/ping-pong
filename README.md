@@ -8,7 +8,7 @@
 
 _A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number. It will change a specific number depending on specification listed below to words ping, pong or pingpong._
 
-[Click here](https://malethr.github.io/ping-pong/) to check my survey webpage.
+[Click here](https://malethr.github.io/ping-pong/) to check my pingpong webpage.
 
 ## Specifications
 
