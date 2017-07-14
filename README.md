@@ -2,7 +2,7 @@
 
 #### _Convert a specific number to words Ping-Pong, July 14, 2017_
 
-#### _**Maria Thomas**_
+#### By _**Maria Thomas**_
 
 ## Description
 
