@@ -1,12 +1,12 @@
 body{
-  background-image: url("http://wallpapersdsc.net/wp-content/uploads/2015/09/Ping_Pong_HD_57.jpg");
+  background-image: url("../img/background.jpg");
   font-family: monospace;
   background-size: 100%
 }
 
 #result {
   display:none;
-  background-image: url("https://www.walldevil.com/wallpapers/a63/wallpapers-comic-book-computer-marvel-desktop-oncourt-gallery-top-other.jpg");
+  background-image: url("../img/result-image.jpg");
   background-size: 100%
 }
 
