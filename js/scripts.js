@@ -8,6 +8,8 @@ var pingpong = function (userInput){
   userValues.forEach(function(value){
     if (value % 15 === 0) {
       userValues[value-1]="pingpong";
+    } else if (value % 5 === 0) {
+      userValues[value-1]="pong";
 
   });
   return userValues;
