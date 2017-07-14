@@ -1,10 +1,10 @@
-# Ping-Pong Project
+# _Ping-Pong Project_
 
-#### Convert a specific number to words Ping-Pong, July 14, 2017
+#### _Convert a specific number to words Ping-Pong, July 14, 2017_
 
-#### By Maria Thomas
+#### _**Maria Thomas**_
 
-##Description
+## Description
 
 _A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number. It will change a specific number depending on specification listed below to words ping, pong or pingpong._
 
