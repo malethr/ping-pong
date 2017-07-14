@@ -8,9 +8,10 @@
     <title>Ping-Pong</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="mainbody">
       <h1 class="jumbotron">PING-PONG</h1>
       <div id="rules">
+        <h3>Lets play PINGPONG!</h3>
         <h4>Rules:</h4>
         <ol>
           <li>Program will replaced numbers divisible by 15 with "pingpong".</li>
@@ -21,10 +22,10 @@
       </div>
       <div class="container row">
         <form id="ping-pong">
-          <div class="form-group col-xs-4">
+          <div class="form-group col-xs-6">
             <label for="year">Enter a number:</label>
             <input id="userInput" type="number" placeholder="Enter a number greater than 0" class="form-control well" min="1" required>
-            <button type="submit" class="btn btn-primary">PING PONG</button>
+            <button type="submit" class="btn btn-warning">PING PONG</button>
           </div>
         </form>
       </div>
@@ -32,7 +33,13 @@
         <ul>
 
         </ul>
+        <button type="reset" value="Refresh Page" onClick="window.location.reload()" class="btn btn-warning">PING PONG another number!</button>
       </div>
+      <footer>
+        <blockquote class="well"><p>"An algorithm is like a recipe.</p>
+          <footer>Waseem Latif</footer>
+        </blockquote>
+      </footer>
     </div>
   </body>
 </html>
