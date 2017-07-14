@@ -1,11 +1,18 @@
 //Business Logic
 var userInput = 0;
-var userArray = [];
+var userValues = [];
 var pingpong = function (userInput){
-  for (i=1; i<=userInput; i++){
-    return userArray.slice(i);
+  for (num=1;num<=userInput;num++){
+    userValues.push(num);
   }
-}
+  userValues.forEach(function(value){
+    if (value % 15 === 0) {
+      userValues[value-1]="pingpong";
+
+  });
+  return userValues;
+};
+
 
 
 
@@ -16,6 +23,6 @@ $(document).ready(function(){
     event.preventDefault();
     userInput = $("#userInput").val();
     var result = pingpong(userInput);
-    $("#result").append("<li>"+result+"</li>");
+    $("#result").text(result);
   });
 });
