@@ -1,0 +1,33 @@
+body{
+  background-image: url("http://wallpapersdsc.net/wp-content/uploads/2015/09/Ping_Pong_HD_57.jpg");
+  background-repeat: -x;
+}
+
+#result {
+  display:none;
+  background-image: url("https://www.walldevil.com/wallpapers/a63/wallpapers-comic-book-computer-marvel-desktop-oncourt-gallery-top-other.jpg");
+}
+
+#rules {
+  color: white;
+  margin: 10px;
+}
+
+label {
+  color: white;
+}
+
+ul {
+  color: white;
+}
+
+.jumbotron {
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: thick;
+  border-style: groove;
+  text-align: center;
+  font-family: monospace;
+  font-size: 60px;
+}
