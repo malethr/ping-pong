@@ -1,11 +1,13 @@
 body{
   background-image: url("http://wallpapersdsc.net/wp-content/uploads/2015/09/Ping_Pong_HD_57.jpg");
-  background-repeat: -x;
+  font-family: monospace;
+  background-size: 100%
 }
 
 #result {
   display:none;
   background-image: url("https://www.walldevil.com/wallpapers/a63/wallpapers-comic-book-computer-marvel-desktop-oncourt-gallery-top-other.jpg");
+  background-size: 100%
 }
 
 #rules {
@@ -14,20 +16,35 @@ body{
 }
 
 label {
-  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  color: 	orange;
 }
 
 ul {
   color: white;
+  list-style-type: circle;
 }
 
 .jumbotron {
-  background-color: black;
-  color: white;
+  background-color: #353839;
+  color: orange;
   border-color: white;
   border-width: thick;
   border-style: groove;
   text-align: center;
-  font-family: monospace;
   font-size: 60px;
+}
+
+#result button {
+  margin-left: 30px;
+}
+
+.btn-warning {
+  color: black;
+  font-weight: bold;
+}
+
+blockquote{
+text-align: center;
 }
